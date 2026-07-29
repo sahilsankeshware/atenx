@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T06:18:45.152Z",
+  "lastUpdated": "2026-07-29T06:20:59.962Z",
   "ticker": [
     "20% OFF ALL PERSONAL TRAINING PACKAGES — TODAY ONLY",
     "FREE TRIAL CLASS FOR FIRST-TIME WALK-INS",
@@ -80,8 +80,8 @@
       "category": "Personal Training",
       "plans": [
         {
-          "name": "8 Sessions",
-          "price": "₹7,999",
+          "name": "12 sessions",
+          "price": "9999",
           "period": "/ pack",
           "highlight": false,
           "features": [
@@ -91,8 +91,8 @@
           ]
         },
         {
-          "name": "16 Sessions",
-          "price": "₹14,499",
+          "name": "24 sessions",
+          "price": "₹19,999",
           "period": "/ pack",
           "highlight": true,
           "features": [
@@ -100,45 +100,6 @@
             "Custom program",
             "Free nutrition check-in"
           ]
-        }
-      ]
-    },
-    {
-      "category": "Nutrition",
-      "plans": [
-        {
-          "name": "Single Consult",
-          "price": "₹999",
-          "period": "/ session",
-          "highlight": false,
-          "features": [
-            "45-min 1-on-1",
-            "Personalised plan"
-          ]
-        },
-        {
-          "name": "Monthly Coaching",
-          "price": "₹3,499",
-          "period": "/ month",
-          "highlight": false,
-          "features": [
-            "Weekly check-ins",
-            "Plan adjusted as you progress"
-          ]
-        },
-        {
-          "name": "PERSONAL TRAINING",
-          "price": "12000",
-          "period": "1 MONTH",
-          "highlight": false,
-          "features": []
-        },
-        {
-          "name": "PERSONAL TRAINING",
-          "price": "24000",
-          "period": "2 MONTHS",
-          "highlight": false,
-          "features": []
         }
       ]
     }
