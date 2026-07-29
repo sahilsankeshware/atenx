@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ATENX — Strength, Conditioning &amp; Everything Between</title>
+<meta name="description" content="ATENX is a hybrid training floor for strength, cardio, Zumba, yoga, boxing, HYROX, personal training and nutrition coaching. Walk in today.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="#top" class="nav-mark">ATE<span>N</span>X</a>
+    <ul class="nav-links">
+      <li><a href="#zones">Floor</a></li>
+      <li><a href="#offer">Today</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#visit">Visit</a></li>
+      <li><a href="#visit" class="nav-cta">Walk In</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu">MENU</button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-top">
+    <span class="nav-mark">ATE<span>N</span>X</span>
+    <button class="close-x" id="navClose" aria-label="Close menu">CLOSE ✕</button>
+  </div>
+  <a href="#zones">Floor</a>
+  <a href="#offer">Today</a>
+  <a href="#pricing">Pricing</a>
+  <a href="#visit">Visit</a>
+</div>
+
+<div class="ticker-bar">
+  <div class="ticker-track" id="tickerTrack"></div>
+</div>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-eyebrow">// HYBRID TRAINING FLOOR</div>
+      <h1>TRAIN<br><em>EVERYTHING.</em></h1>
+      <p class="hero-sub">Strength, cardio, Zumba, yoga, boxing, HYROX, personal training and nutrition coaching — one floor, one membership. Walk-ins always welcome.</p>
+      <div class="hero-actions">
+        <a href="#visit" class="btn btn-volt">Walk In Today</a>
+        <a href="#pricing" class="btn btn-outline">See Pricing</a>
+      </div>
+      <div class="hero-stats">
+        <div><b>8</b><span>Floor Zones</span></div>
+        <div><b>7</b><span>Days Open</span></div>
+        <div><b>5:30</b><span>AM First Slot</span></div>
+        <div><b>0</b><span>Joining Fee</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="offer">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="section-num">// 01 — TODAY'S OFFER</div>
+          <h2>What's live right now</h2>
+        </div>
+        <p class="section-note">Updated daily by the ATENX front desk. Offers reset every night at midnight — check back tomorrow for the next one.</p>
+      </div>
+      <div class="offer-card">
+        <div>
+          <span class="offer-tag" id="offerTag">TODAY ONLY</span>
+          <h3 id="offerTitle">Loading today's offer…</h3>
+          <p id="offerDesc"></p>
+        </div>
+        <div class="offer-countdown">
+          <div class="cd-label">Offer resets in</div>
+          <div class="cd-time" id="cdTime">--:--:--</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="zones">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="section-num">// 02 — THE FLOOR</div>
+          <h2>8 zones, one membership</h2>
+        </div>
+        <p class="section-note">Move between zones freely. Every membership includes full floor access — nothing is locked behind an add-on.</p>
+      </div>
+      <div class="zones">
+        <div class="zone">
+          <span class="zone-id">01</span>
+          <div><h4>Strength Training</h4><p>Free weights, racks and machines for building raw power.</p></div>
+        </div>
+        <div class="zone">
+          <span class="zone-id">02</span>
+          <div><h4>Cardio Zone</h4><p>Treadmills, bikes and rowers for endurance and fat loss.</p></div>
+        </div>
+        <div class="zone">
+          <span class="zone-id">03</span>
+          <div><h4>Zumba</h4><p>High-energy dance cardio classes, no experience needed.</p></div>
+        </div>
+        <div class="zone">
+          <span class="zone-id">04</span>
+          <div><h4>Yoga</h4><p>Mobility, breathwork and recovery-focused sessions.</p></div>
+        </div>
+        <div class="zone">
+          <span class="zone-id">05</span>
+          <div><h4>Boxing</h4><p>Bag work, pad sessions and technique drills.</p></div>
+        </div>
+        <div class="zone">
+          <span class="zone-id">06</span>
+          <div><h4>HYROX</h4><p>Race-style functional fitness training, built for competition day.</p></div>
+        </div>
+        <div class="zone">
+          <span class="zone-id">07</span>
+          <div><h4>Personal Training</h4><p>1-on-1 coaching with a program built around your goal.</p></div>
+        </div>
+        <div class="zone">
+          <span class="zone-id">08</span>
+          <div><h4>Nutrition</h4><p>Coaching and meal planning to match your training load.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="pricing">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="section-num">// 03 — PRICING</div>
+          <h2>Pick your plan</h2>
+        </div>
+        <p class="section-note">All prices in INR. Updated regularly — ask the front desk if you'd like a plan customised to your goal.</p>
+      </div>
+      <div class="price-tabs" id="priceTabs"></div>
+      <div class="price-grid" id="priceGrid"></div>
+    </div>
+  </section>
+
+  <section class="section" id="visit" style="border-bottom:none;">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="section-num">// 04 — VISIT</div>
+          <h2>Come train with us</h2>
+        </div>
+      </div>
+      <div class="visit-grid">
+        <div class="visit-block">
+          <h4>Address</h4>
+          <p id="visitAddress">—</p>
+          <p style="margin-top:6px;"><a id="visitMap" href="#" target="_blank" rel="noopener">Open in Maps →</a></p>
+          <h4 style="margin-top:32px;">Contact</h4>
+          <p><a id="visitPhone" href="#">—</a></p>
+          <p style="margin-top:4px;"><a id="visitWhatsapp" href="#" target="_blank" rel="noopener">Message on WhatsApp →</a></p>
+          <div class="share-row">
+            <button class="btn btn-outline" id="shareBtn" style="padding:10px 18px; font-size:12px;">Share this page</button>
+          </div>
+        </div>
+        <div class="visit-block">
+          <h4>Hours</h4>
+          <div id="visitHours"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="wrap">
+  <span>© <span id="year"></span> ATENX. All rights reserved.</span>
+  <a href="admin.html">Staff Login</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

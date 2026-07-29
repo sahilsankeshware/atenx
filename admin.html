@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>ATENX — Staff Panel</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+<style>
+  .admin-wrap { max-width: 720px; margin: 0 auto; padding: 120px 24px 80px; }
+  .admin-card { background: var(--ink-2); border: 1px solid var(--line); border-radius: 4px; padding: 32px; margin-bottom: 24px; }
+  .admin-card h3 { font-family: var(--display); font-size: 26px; letter-spacing: 0.01em; margin-bottom: 6px; }
+  .admin-hint { font-size: 13px; color: var(--paper-dim); margin-bottom: 20px; }
+  label { display: block; font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--paper-dim); margin: 16px 0 6px; }
+  label:first-of-type { margin-top: 0; }
+  input[type=text], input[type=password], textarea {
+    width: 100%; background: var(--ink); border: 1px solid var(--line); color: var(--paper);
+    font-family: var(--body); font-size: 14px; padding: 11px 12px; border-radius: 2px;
+  }
+  textarea { resize: vertical; font-family: var(--mono); font-size: 13px; }
+  input:focus, textarea:focus { outline: none; border-color: var(--volt); }
+  .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .checkbox-row { display: flex; align-items: center; gap: 8px; margin-top: 16px; }
+  .checkbox-row input { width: auto; }
+  .checkbox-row label { margin: 0; }
+  #statusMsg { font-family: var(--mono); font-size: 13px; margin-top: 16px; min-height: 18px; }
+  #statusMsg.ok { color: var(--volt); }
+  #statusMsg.err { color: var(--ember); }
+  .plan-block { border-top: 1px solid var(--line); padding-top: 16px; margin-top: 16px; }
+  .cat-block { border: 1px solid var(--line); border-radius: 2px; padding: 20px; margin-top: 20px; }
+  .cat-head { display: flex; justify-content: space-between; align-items: center; }
+  .small-btn { font-family: var(--mono); font-size: 11px; background: none; border: 1px solid var(--steel); color: var(--paper-dim); padding: 6px 10px; border-radius: 2px; cursor: pointer; }
+  .small-btn:hover { border-color: var(--volt); color: var(--volt); }
+  .danger-btn:hover { border-color: var(--ember); color: var(--ember); }
+  #app { display: none; }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="index.html" class="nav-mark">ATE<span>N</span>X</a>
+    <span style="font-family: var(--mono); font-size: 12px; color: var(--paper-dim); text-transform: uppercase; letter-spacing: 0.08em;">Staff Panel</span>
+  </div>
+</nav>
+
+<div class="admin-wrap">
+
+  <div class="admin-card" id="gate">
+    <h3>Staff login</h3>
+    <p class="admin-hint">
+      Paste your GitHub token below. This is the only thing that lets changes be saved — nobody without
+      this token can publish updates, even if they find this page. See the README for how to create one.
+    </p>
+    <label for="ownerRepo">Repository (owner/repo)</label>
+    <input type="text" id="ownerRepo" placeholder="sahilsankeshware/atenx" value="sahilsankeshware/atenx">
+    <label for="branchName">Branch</label>
+    <input type="text" id="branchName" placeholder="main" value="main">
+    <label for="tokenInput">GitHub token</label>
+    <input type="password" id="tokenInput" placeholder="github_pat_...">
+    <div class="checkbox-row">
+      <input type="checkbox" id="rememberToken">
+      <label for="rememberToken">Remember on this device</label>
+    </div>
+    <div style="margin-top: 22px;">
+      <button class="btn btn-volt" id="connectBtn" style="border:none; cursor:pointer;">Connect &amp; load current content</button>
+    </div>
+    <div id="gateStatus" style="font-family: var(--mono); font-size: 13px; margin-top: 14px;"></div>
+  </div>
+
+  <div id="app">
+
+    <div class="admin-card">
+      <h3>Today's offer</h3>
+      <p class="admin-hint">Shown as the highlighted banner and the scrolling ticker will include it automatically if you add it below too.</p>
+      <label for="offerTag">Tag (small label)</label>
+      <input type="text" id="offerTag">
+      <label for="offerTitle">Title</label>
+      <input type="text" id="offerTitle">
+      <label for="offerDesc">Description</label>
+      <textarea id="offerDesc" rows="3"></textarea>
+    </div>
+
+    <div class="admin-card">
+      <h3>Scrolling ticker</h3>
+      <p class="admin-hint">One offer per line — this scrolls at the top of the site.</p>
+      <textarea id="tickerText" rows="5"></textarea>
+    </div>
+
+    <div class="admin-card">
+      <h3>Pricing</h3>
+      <p class="admin-hint">Edit categories and plans. Use the buttons to add or remove a category or plan.</p>
+      <div id="pricingEditor"></div>
+      <div style="margin-top:18px;">
+        <button class="small-btn" id="addCategoryBtn" type="button">+ Add category</button>
+      </div>
+    </div>
+
+    <div class="admin-card">
+      <h3>Gym info</h3>
+      <div class="row2">
+        <div><label for="giPhone">Phone</label><input type="text" id="giPhone"></div>
+        <div><label for="giWhatsapp">WhatsApp number (digits, country code)</label><input type="text" id="giWhatsapp"></div>
+      </div>
+      <label for="giAddress">Address</label>
+      <input type="text" id="giAddress">
+      <label for="giMap">Map link</label>
+      <input type="text" id="giMap">
+      <label for="giHours">Hours — one line each, format: Days | Time</label>
+      <textarea id="giHours" rows="3" placeholder="Mon – Sat | 5:30 AM – 10:30 PM&#10;Sunday | 7:00 AM – 1:00 PM"></textarea>
+    </div>
+
+    <div class="admin-card">
+      <button class="btn btn-volt" id="saveBtn" style="border:none; cursor:pointer; width:100%;">Publish changes to the live site</button>
+      <div id="statusMsg"></div>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>

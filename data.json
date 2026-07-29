@@ -1,0 +1,50 @@
+{
+  "lastUpdated": "2026-07-29T09:00:00+05:30",
+  "ticker": [
+    "20% OFF ALL PERSONAL TRAINING PACKAGES — TODAY ONLY",
+    "FREE TRIAL CLASS FOR FIRST-TIME WALK-INS",
+    "NEW HYROX BATCH STARTS THIS MONDAY, 6:00 AM",
+    "REFER A FRIEND — BOTH OF YOU GET ₹500 OFF"
+  ],
+  "todayOffer": {
+    "title": "20% off Personal Training",
+    "description": "Sign up for any Personal Training package today and lock in 20% off your first three months. Offer applies to walk-ins and resets every day at midnight.",
+    "tag": "TODAY ONLY"
+  },
+  "gymInfo": {
+    "name": "ATENX",
+    "phone": "+91 98765 43210",
+    "whatsapp": "919876543210",
+    "address": "Shop 4, Ground Floor, Andheri West, Mumbai, Maharashtra",
+    "mapLink": "https://maps.google.com/?q=Andheri+West+Mumbai",
+    "hours": [
+      { "days": "Mon – Sat", "time": "5:30 AM – 10:30 PM" },
+      { "days": "Sunday", "time": "7:00 AM – 1:00 PM" }
+    ]
+  },
+  "pricing": [
+    {
+      "category": "Membership",
+      "plans": [
+        { "name": "Drop-In", "price": "₹399", "period": "/ session", "features": ["Full floor access", "One visit, no commitment"], "highlight": false },
+        { "name": "Monthly", "price": "₹2,499", "period": "/ month", "features": ["Strength, cardio & classes", "No joining fee", "Freeze up to 7 days"], "highlight": true },
+        { "name": "Quarterly", "price": "₹6,499", "period": "/ 3 months", "features": ["Everything in Monthly", "1 free PT assessment", "Save ₹1,000"], "highlight": false },
+        { "name": "Annual", "price": "₹21,999", "period": "/ year", "features": ["Everything in Quarterly", "2 nutrition consults", "Best value per month"], "highlight": false }
+      ]
+    },
+    {
+      "category": "Personal Training",
+      "plans": [
+        { "name": "8 Sessions", "price": "₹7,999", "period": "/ pack", "features": ["1-on-1 with a coach", "Custom program", "Progress tracking"], "highlight": false },
+        { "name": "16 Sessions", "price": "₹14,499", "period": "/ pack", "features": ["1-on-1 with a coach", "Custom program", "Free nutrition check-in"], "highlight": true }
+      ]
+    },
+    {
+      "category": "Nutrition",
+      "plans": [
+        { "name": "Single Consult", "price": "₹999", "period": "/ session", "features": ["45-min 1-on-1", "Personalised plan"], "highlight": false },
+        { "name": "Monthly Coaching", "price": "₹3,499", "period": "/ month", "features": ["Weekly check-ins", "Plan adjusted as you progress"], "highlight": false }
+      ]
+    }
+  ]
+}
