@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T06:20:59.962Z",
+  "lastUpdated": "2026-08-02T13:00:49.245Z",
   "ticker": [
     "20% OFF ALL PERSONAL TRAINING PACKAGES — TODAY ONLY",
     "FREE TRIAL CLASS FOR FIRST-TIME WALK-INS",
@@ -32,8 +32,8 @@
       "category": "Membership",
       "plans": [
         {
-          "name": "Drop-In",
-          "price": "₹399",
+          "name": "1 Day Mmebrship",
+          "price": "₹499",
           "period": "/ session",
           "highlight": false,
           "features": [
@@ -43,18 +43,17 @@
         },
         {
           "name": "Monthly",
-          "price": "₹2,499",
+          "price": "3999",
           "period": "/ month",
-          "highlight": true,
+          "highlight": false,
           "features": [
             "Strength, cardio & classes",
-            "No joining fee",
-            "Freeze up to 7 days"
+            "No joining fee"
           ]
         },
         {
           "name": "Quarterly",
-          "price": "₹6,499",
+          "price": "₹9999",
           "period": "/ 3 months",
           "highlight": false,
           "features": [
@@ -70,9 +69,16 @@
           "highlight": false,
           "features": [
             "Everything in Quarterly",
-            "2 nutrition consults",
+            "3999/- extra discount",
             "Best value per month"
           ]
+        },
+        {
+          "name": "Half Yearly",
+          "price": "14,999",
+          "period": "6 months",
+          "highlight": false,
+          "features": []
         }
       ]
     },
