@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T11:57:39.971Z",
+  "lastUpdated": "2026-08-10T12:03:25.996Z",
   "ticker": [
     "💪 Join ATENX Today! Get your Yearly Membership for only ₹15,499!"
   ],
@@ -92,6 +92,17 @@
             "Custom program",
             "Progress tracking"
           ]
+        },
+        {
+          "name": "6 months",
+          "price": "54,999/-",
+          "period": "72 sessions",
+          "highlight": false,
+          "features": [
+            "1-on-1 with a coach",
+            "Custom program",
+            "Progress tracking"
+          ]
         }
       ]
     },
@@ -119,6 +130,17 @@
             "Custom program",
             "Progress tracking"
           ]
+        },
+        {
+          "name": "6 months",
+          "price": "64,999/-",
+          "period": "72 sessions",
+          "highlight": false,
+          "features": [
+            "1-on-1 with a coach",
+            "Custom program",
+            "Progress tracking"
+          ]
         }
       ]
     },
@@ -141,6 +163,17 @@
           "price": "39,999/-",
           "period": "36 sessions",
           "highlight": true,
+          "features": [
+            "1-on-1 with a coach",
+            "Custom program",
+            "Progress tracking"
+          ]
+        },
+        {
+          "name": "6 months",
+          "price": "74,999/-",
+          "period": "72 sessions",
+          "highlight": false,
           "features": [
             "1-on-1 with a coach",
             "Custom program",
