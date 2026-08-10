@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02T13:03:14.907Z",
+  "lastUpdated": "2026-08-10T11:53:02.919Z",
   "ticker": [
     "20% OFF ALL PERSONAL TRAINING PACKAGES — TODAY ONLY",
     "FREE TRIAL CLASS FOR FIRST-TIME WALK-INS",
@@ -46,49 +46,38 @@
           "price": "3999",
           "period": "/ month",
           "highlight": false,
-          "features": [
-            "Strength, cardio & classes",
-            "No joining fee"
-          ]
+          "features": []
         },
         {
           "name": "Quarterly",
           "price": "₹9999",
           "period": "/ 3 months",
           "highlight": false,
-          "features": [
-            "Everything in Monthly",
-            "1 free PT assessment",
-            "Save ₹1,000"
-          ]
-        },
-        {
-          "name": "Annual",
-          "price": "₹21,999",
-          "period": "/ year",
-          "highlight": false,
-          "features": [
-            "Everything in Quarterly",
-            "3999/- extra discount",
-            "Best value per month"
-          ]
+          "features": []
         },
         {
           "name": "Half Yearly",
-          "price": "14,999",
+          "price": "₹13,999",
           "period": "6 months",
+          "highlight": false,
+          "features": []
+        },
+        {
+          "name": "1 Year",
+          "price": "18,499/-",
+          "period": "12 months",
           "highlight": false,
           "features": []
         }
       ]
     },
     {
-      "category": "Personal Training",
+      "category": "Personal Training level 5",
       "plans": [
         {
-          "name": "12 sessions",
-          "price": "9999",
-          "period": "/ pack",
+          "name": "1 month",
+          "price": "10,999/-",
+          "period": "12 sessions",
           "highlight": false,
           "features": [
             "1-on-1 with a coach",
@@ -97,14 +86,68 @@
           ]
         },
         {
-          "name": "24 sessions",
-          "price": "₹19,999",
-          "period": "/ pack",
-          "highlight": true,
+          "name": "3 months",
+          "price": "29,999/-",
+          "period": "36 sessions",
+          "highlight": false,
           "features": [
             "1-on-1 with a coach",
             "Custom program",
-            "Free nutrition check-in"
+            "Progress tracking"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Personal Training Level 6",
+      "plans": [
+        {
+          "name": "1 month",
+          "price": "12,999/-",
+          "period": "12 sessions",
+          "highlight": false,
+          "features": [
+            "1-on-1 with a coach",
+            "Custom program",
+            "Progress tracking"
+          ]
+        },
+        {
+          "name": "3 months",
+          "price": "34,999/-",
+          "period": "36 sessions",
+          "highlight": false,
+          "features": [
+            "1-on-1 with a coach",
+            "Custom program",
+            "Progress tracking"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Personal Training Level 7",
+      "plans": [
+        {
+          "name": "1 month",
+          "price": "14,999/-",
+          "period": "12 sessions",
+          "highlight": false,
+          "features": [
+            "1-on-1 with a coach",
+            "Custom program",
+            "Progress tracking"
+          ]
+        },
+        {
+          "name": "3 months",
+          "price": "39,999/-",
+          "period": "36 sessions",
+          "highlight": false,
+          "features": [
+            "1-on-1 with a coach",
+            "Custom program",
+            "Progress tracking"
           ]
         }
       ]
