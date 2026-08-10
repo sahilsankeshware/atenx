@@ -1,15 +1,12 @@
 {
-  "lastUpdated": "2026-08-10T11:53:02.919Z",
+  "lastUpdated": "2026-08-10T11:57:39.971Z",
   "ticker": [
-    "20% OFF ALL PERSONAL TRAINING PACKAGES — TODAY ONLY",
-    "FREE TRIAL CLASS FOR FIRST-TIME WALK-INS",
-    "NEW HYROX BATCH STARTS THIS MONDAY, 6:00 AM",
-    "REFER A FRIEND — BOTH OF YOU GET ₹500 OFF"
+    "💪 Join ATENX Today! Get your Yearly Membership for only ₹15,499!"
   ],
   "todayOffer": {
     "tag": "TODAY ONLY",
-    "title": "20% off Personal Training",
-    "description": "Sign up for any Personal Training package today and lock in 20% off your first three months. Offer applies to walk-ins and resets every day at midnight."
+    "title": "REFER A FRIEND & GET 1 MONTH FREE!",
+    "description": "Refer a friend for a Yearly Membership at ATENX and enjoy 1 FREE month on your membership.\nYour referral = Your reward! 💪"
   },
   "gymInfo": {
     "phone": "+91 8660308131",
@@ -66,7 +63,7 @@
           "name": "1 Year",
           "price": "18,499/-",
           "period": "12 months",
-          "highlight": false,
+          "highlight": true,
           "features": []
         }
       ]
@@ -89,7 +86,7 @@
           "name": "3 months",
           "price": "29,999/-",
           "period": "36 sessions",
-          "highlight": false,
+          "highlight": true,
           "features": [
             "1-on-1 with a coach",
             "Custom program",
@@ -116,7 +113,7 @@
           "name": "3 months",
           "price": "34,999/-",
           "period": "36 sessions",
-          "highlight": false,
+          "highlight": true,
           "features": [
             "1-on-1 with a coach",
             "Custom program",
@@ -143,7 +140,7 @@
           "name": "3 months",
           "price": "39,999/-",
           "period": "36 sessions",
-          "highlight": false,
+          "highlight": true,
           "features": [
             "1-on-1 with a coach",
             "Custom program",
