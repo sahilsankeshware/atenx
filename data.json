@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T12:03:25.996Z",
+  "lastUpdated": "2026-08-19T09:01:25.169Z",
   "ticker": [
     "💪 Join ATENX Today! Get your Yearly Membership for only ₹15,499!"
   ],
@@ -9,8 +9,8 @@
     "description": "Refer a friend for a Yearly Membership at ATENX and enjoy 1 FREE month on your membership.\nYour referral = Your reward! 💪"
   },
   "gymInfo": {
-    "phone": "+91 8660308131",
-    "whatsapp": "+91 8660308131",
+    "phone": "+91 9091261010",
+    "whatsapp": "+91 9091261010",
     "address": "Sr.no. 1420, back gate, OZONE VILLAS, Lohgaon - Wagholi Rd, opposite OZONE VILLAS, Kamal baug society, Wagholi, Pune, Maharashtra 412207",
     "mapLink": "https://maps.app.goo.gl/eKCdbVSEh7eAvG1j9",
     "hours": [
@@ -40,7 +40,7 @@
         },
         {
           "name": "Monthly",
-          "price": "3999",
+          "price": "4999",
           "period": "/ month",
           "highlight": false,
           "features": []
