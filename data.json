@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-19T09:01:25.169Z",
+  "lastUpdated": "2026-09-08T12:30:09.238Z",
   "ticker": [
-    "💪 Join ATENX Today! Get your Yearly Membership for only ₹15,499!"
+    "💪 Join ATENX Today! Get your Yearly Membership for only ₹16,499!"
   ],
   "todayOffer": {
     "tag": "TODAY ONLY",
@@ -73,7 +73,7 @@
       "plans": [
         {
           "name": "1 month",
-          "price": "10,999/-",
+          "price": "11,999/-",
           "period": "12 sessions",
           "highlight": false,
           "features": [
@@ -84,7 +84,7 @@
         },
         {
           "name": "3 months",
-          "price": "29,999/-",
+          "price": "32,999/-",
           "period": "36 sessions",
           "highlight": true,
           "features": [
@@ -95,7 +95,7 @@
         },
         {
           "name": "6 months",
-          "price": "54,999/-",
+          "price": "59,999/-",
           "period": "72 sessions",
           "highlight": false,
           "features": [
@@ -111,45 +111,7 @@
       "plans": [
         {
           "name": "1 month",
-          "price": "12,999/-",
-          "period": "12 sessions",
-          "highlight": false,
-          "features": [
-            "1-on-1 with a coach",
-            "Custom program",
-            "Progress tracking"
-          ]
-        },
-        {
-          "name": "3 months",
-          "price": "34,999/-",
-          "period": "36 sessions",
-          "highlight": true,
-          "features": [
-            "1-on-1 with a coach",
-            "Custom program",
-            "Progress tracking"
-          ]
-        },
-        {
-          "name": "6 months",
-          "price": "64,999/-",
-          "period": "72 sessions",
-          "highlight": false,
-          "features": [
-            "1-on-1 with a coach",
-            "Custom program",
-            "Progress tracking"
-          ]
-        }
-      ]
-    },
-    {
-      "category": "Personal Training Level 7",
-      "plans": [
-        {
-          "name": "1 month",
-          "price": "14,999/-",
+          "price": "13,999/-",
           "period": "12 sessions",
           "highlight": false,
           "features": [
@@ -171,7 +133,45 @@
         },
         {
           "name": "6 months",
-          "price": "74,999/-",
+          "price": "69,999/-",
+          "period": "72 sessions",
+          "highlight": false,
+          "features": [
+            "1-on-1 with a coach",
+            "Custom program",
+            "Progress tracking"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Personal Training Level 7",
+      "plans": [
+        {
+          "name": "1 month",
+          "price": "15,999/-",
+          "period": "12 sessions",
+          "highlight": false,
+          "features": [
+            "1-on-1 with a coach",
+            "Custom program",
+            "Progress tracking"
+          ]
+        },
+        {
+          "name": "3 months",
+          "price": "45,999/-",
+          "period": "36 sessions",
+          "highlight": true,
+          "features": [
+            "1-on-1 with a coach",
+            "Custom program",
+            "Progress tracking"
+          ]
+        },
+        {
+          "name": "6 months",
+          "price": "79,999/-",
           "period": "72 sessions",
           "highlight": false,
           "features": [
