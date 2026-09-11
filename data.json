@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T09:34:51.695Z",
+  "lastUpdated": "2026-09-11T08:53:44.786Z",
   "ticker": [
     "💪 Join ATENX Today! Get your Yearly Membership for only ₹16,499!"
   ],
@@ -133,7 +133,7 @@
         },
         {
           "name": "6 months",
-          "price": "69,999/-",
+          "price": "79,999/-",
           "period": "72 sessions",
           "highlight": false,
           "features": [
@@ -160,7 +160,7 @@
         },
         {
           "name": "3 months",
-          "price": "45,999/-",
+          "price": "49,999/-",
           "period": "36 sessions",
           "highlight": true,
           "features": [
@@ -171,7 +171,7 @@
         },
         {
           "name": "6 months",
-          "price": "79,999/-",
+          "price": "99,999/-",
           "period": "72 sessions",
           "highlight": false,
           "features": [
